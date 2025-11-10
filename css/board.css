@@ -1,0 +1,73 @@
+@charset "utf-8";
+#bo_vc {}
+
+.bo_vc_w {position:relative;width:100%;margin:0 0 40px 0;}
+.bo_vc_w .bo_vc_textarea {margin:0 0 20px 0;}
+.bo_vc_w .bo_vc_textarea textarea {display:block;width:100%;height:120px;padding:10px;background:#222;border:none;}
+
+.bo_vc_w .btn_submit {display:block;position:absolute;right:0;right:0;top:0;bottom:0;width:100px;height:100%;background:#f00001;border:none;}
+
+.bo_v_nb {display:none;position:fixed;left:50%;bottom:40px;width:140px;margin:0 0 0 -70px;background:#111;border-radius:100px;z-index:9;}
+.bo_v_nb:after {display:block;visibility:hidden;clear:both;content:""}
+.bo_v_nb li {display:block;float:left;width:50%;}
+.bo_v_nb li a {display:block;padding:8px 0;text-align:center;}
+.bo_v_nb li a span {display:block;width:26px;height:26px;margin:0 auto 4px auto;text-align:center;line-height:24px;border:solid 1px #ddd;border-radius:50%;}
+.bo_v_nb li a span i {font-size:12px;line-height:16px;}
+.bo_v_nb li a p {font-size:12px;}
+.bo_v_nb.bo_v_nb_sticky {display:block;}
+
+.star {display:inline-block;position:relative;width:80px;height:20px;overflow:hidden;background:url(https://tvwiki2.net/img/star.png) no-repeat 0 -40px;vertical-align:middle;}
+.star .star_in {display:block;position:absolute;left:0;top:0;height:20px;overflow:hidden;background:url(https://tvwiki2.net/img/star.png) no-repeat 0 -60px;}
+
+
+/* 댓글 */
+#bo_vc h3 {display:block;margin:0 0 20px 0;font-size:16px;font-weight:500;}
+
+#bo_vc article {display:block;position:relative;padding:0 0 24px 80px;}
+#bo_vc article .pf_img {display:block;position:absolute;left:0;top:10px;width:64px;}
+#bo_vc article .pf_img img {width:100%;height:auto;border-radius:50%;}
+
+#bo_vc article header {display:block;margin:0 0 10px 0;padding:0;line-height:28px;border-bottom:none}
+#bo_vc article header:after {display:block;visibility:hidden;clear:both;content:""}
+#bo_vc article header strong {color:#fff;font-weight:700;}
+#bo_vc article .cm_wrap {display:block;position:relative;}
+#bo_vc article .cm_wrap:after {display:block;visibility:hidden;clear:both;content:""}
+#bo_vc article .cm_wrap img {width:24px;height:auto;}
+#bo_vc article .cm_wrap .profile_img img {vertical-align:middle;}
+#bo_vc article .cm_wrap .bo_vc_ip,
+#bo_vc article .cm_wrap .bo_vc_hdinfo {display:inline-block;color:#999;font-family:'roboto';font-weight:500;font-size:13px;font-weight:400;}
+#bo_vc article .cm_wrap .bo_vc_hdinfo i {margin:0 4px 0 0;font-size:12px;}
+#bo_vc article .cmt_contents {}
+#bo_vc article .cmt_contents p {font-size:13px;line-height:140%;}
+#bo_vc article .cmt_contents p .user {color:#15aacf;font-weight:400;}
+#bo_vc article .cmt_contents p i {color:#ff7700;font-size:16px;}
+#bo_vc article .bo_vc_w {display:block;margin:0;}
+#bo_vc article .bo_vc_w iframe {background:#fff;}
+
+.bo_vc_act {float:left;}
+.bo_vc_act:after {display:block;visibility:hidden;clear:both;content:""}
+.bo_vc_act li {display:block;float:left;margin:0 6px 0 0;padding:0 6px 0 0;background:url(https://tvwiki2.net/img/var.gif) no-repeat right 50%;}
+.bo_vc_act li:last-child {margin:0;padding:0;background:none;}
+.bo_vc_act li a {display:block;color:#999;font-size:12px;line-height:24px;text-align:center;}
+
+
+
+
+
+@media screen and (max-width:986px) {
+.comment_wrap {padding:30px 0px;}
+
+.bo_vc_w .btn_submit {width:80px;}
+
+#bo_vc h3 {margin:0 10px 20px 10px;font-size:14px;}
+#bo_vc h3 i {font-size:16px;}
+
+#bo_vc article {padding:0 10px 24px 70px;}
+#bo_vc article .pf_img {left:10px;width:48px;}
+}
+
+
+
+
+@media screen and (max-width:750px) {
+}
